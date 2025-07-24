@@ -1,1 +1,4 @@
 @import "tailwindcss";
+
+
+.img-wrapper{ background:url('./assets/images/netflix-banner.jpg') center/cover no-repeat; }

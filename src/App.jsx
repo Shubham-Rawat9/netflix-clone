@@ -1,11 +1,15 @@
-import React from 'react'
-import './App.css'
+import React, { useImperativeHandle } from 'react'
+import './App.css';
+import Home from './assets/pages/Home';
+import Card from './assets/components/Header/Card';
+
 
 function App() {
   return (
-   <div className="container">
-    
-   </div>
+    <>
+   <Home/>
+   <Card/>
+    </>
       
   
   )
