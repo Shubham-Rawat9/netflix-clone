@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header';
-
+ 
 const Home = () => {
   return (
         <section className='img-wrapper bg-opacity-100'>
@@ -13,9 +13,9 @@ const Home = () => {
                 </div>
                 <div className="row pt-5">
                     <p className='text-white font-medium '>Ready to watch? Enter your email to create or restart your membership.</p>
-                    <div className='d-flex items-center pt-5'>
-                        <input type="email"  placeholder='Email Address' className='border rounded p-3 text-white mx-5 w-80 text-semibold bg-black'/>
-                        <button className='border rounded text-white p-2 w-52 text-2xl font-semibold bg-red-600'>Get started</button>
+                    <div className='flex items-center justify-center mt-6 space-x-10'>
+                        <input type="email"  placeholder='Email Address' className='border rounded p-3 text-white  w-80 text-semibold bg-black'/>
+                        <a className='border rounded text-white p-2 w-52 text-2xl font-semibold bg-red-600'>Get started</a>
                     </div>
                 </div>
             </div>

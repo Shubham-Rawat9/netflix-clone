@@ -1,4 +1,19 @@
 @import "tailwindcss";
 
+body{ background: #000;}
 
+/* home section  */
 .img-wrapper{ background:url('./assets/images/netflix-banner.jpg') center/cover no-repeat; }
+
+/* movie image */
+.img-hover{   transition: transform 0.3s ease-in-out; cursor: pointer;}
+.img-hover:hover{ transform: scale(1.1) ; }
+
+/* netflix linear gradient   */
+.netflix-linear{ background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);}
+
+/*about section color */
+.bg-about{background-color: #2d2d2d;}
+
+/* text-color */
+.txt-net{  color:#b3b3b3}
